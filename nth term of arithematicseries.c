@@ -1,3 +1,5 @@
+calculates and prints the nth term of a arithematic series
+
 #include<stdio.h>
 void main()
 {
