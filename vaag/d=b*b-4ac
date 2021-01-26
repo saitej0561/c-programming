@@ -1,0 +1,11 @@
+c program of d=b*b-4*a*c;
+
+#include<stdio.h>
+void main()
+{
+  int d,b,a,c;
+  printf("enter the b a c values");
+  scanf("%d %d %d",&b,&a,&c);
+  d=b*b-4*a*c;
+  printf("result is %d",d);
+}
