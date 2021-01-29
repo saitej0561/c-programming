@@ -14,7 +14,7 @@ Example- If number is 12345 then sum is 1+2+3+4+5=10
   scanf("%d",&num);
   while(num!=0)
       {
-      sum=sum+num%10;
+      sum=sum+(num%10);
       num=num/10;
       }
     printf("sum of numbers is %d",sum);
