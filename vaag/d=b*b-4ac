@@ -1,3 +1,5 @@
+c program for d=b*b-4ac;
+
 #include<stdio.h>
 void main()
 {
