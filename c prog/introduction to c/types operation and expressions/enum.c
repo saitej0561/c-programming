@@ -1,15 +1,12 @@
 #include<stdio.h>
-enum week{mon=1 , tues , wed , thus , fri , sat, sun}
+enum week{ sun=1, mon , tues , wed , thus , fri , sat };
 void main()
 {
-    int a;
-    a=mon;
-    printf("%d",mon);
-    
-    -------------------or-----------------------------
-    int a;
-    for(a=mon;a<sun;a++)
-      {
-        printf("%d",a);
-       }
-       
+	int day;
+        day=mon;
+	printf("monday is %d\n",day);
+	for(day=sun;day<=sat;day++)
+	{
+		printf("%d\n",day);
+	}
+}
